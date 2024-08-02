@@ -71,10 +71,18 @@ def print_rider_details(riders):
     """
     print(".........................../")
     for rider in riders:
+        if len(rider["CART"]) == 0:
+            print(f"{rider['RIDER_ID']} No orders in the cart.")
+            continue
+        
         print(f'RIDER_ID = {rider["RIDER_ID"]}, Our Profit = {rider["our_profit"]}, Total Order Value = {rider["Total_order_value"]}, Total Distance = {rider["total_distance"]}, Total Orders = {len(rider["CART"])} ')
-        for item in rider["delivery_times"]:
-            key = list(item.keys())[0]
-            print(f"Delhiver Time of Order id {key} is {item[key]}")
+        for i in range(len(rider["CART"])):
+            order = rider["CART"][i]
+            times = rider["delivery_times"]
+            time = times[i]
+            key = list(time.keys())[0]
+            print(f"Delhiver Time of Order id {key} is {time[key]}")
+            print(f"first_mile_distance = {order['first_mile_distance']} and last_mile_distance = {order['last_mile_distance']} and first_mile_time = {order['first_mile_time']} and last_mile_time = {order['last_mile_time']}")
     print(".........................../")
 
 
@@ -84,9 +92,9 @@ def append_order(order_orig, rider_orig):
     rider=copy.deepcopy(rider_orig)
     
     if len(rider["CART"])==0:
+        rider["CART"].append(order)
         print(f"Order {order['ORDER_ID']} appended to rider {rider['RIDER_ID']}")
         print("appending if case")
-        rider["CART"].append(order)
         rider["route"] = [order["pickup_coordinates"],order["delivery_coordinates"]]
         rider["rider_order_status"].append("PICKUP")
         rider["coordinates"] = [[order["pickup_coordinates"],order["delivery_coordinates"]]]
@@ -98,11 +106,15 @@ def append_order(order_orig, rider_orig):
         delhivery_time = calculate_delivery_time(rider)
         print("delhivery timemmmm",delhivery_time)
         rider["delivery_times"] = calculate_delivery_time(rider)
+        order["first_mile_distance"] = calculate_distance([rider["current_coordinates"]], [order["pickup_coordinates"]])
+        order["last_mile_distance"] = calculate_distance([order["pickup_coordinates"]], [order["delivery_coordinates"]])
+        order["first_mile_time"] = (order["first_mile_distance"]/first_mile_speed)*60
+        order["last_mile_time"] = (order["last_mile_distance"]/last_mile_speed)*60
         return rider
     else:
         print("appending else case")
-        rider["coordinates"].append([order["pickup_coordinates"],order["delivery_coordinates"]])
         rider["CART"].append(order)
+        rider["coordinates"].append([order["pickup_coordinates"],order["delivery_coordinates"]])
         best_route_coordinates, min_distance, best_flags = optimize_route(rider)
         rider["route"] = best_route_coordinates  # Assign the best route to rider["route"]
         rider["rider_flags"] = best_flags
@@ -111,18 +123,21 @@ def append_order(order_orig, rider_orig):
         print(f"Order {order['ORDER_ID']} appended to rider {rider['RIDER_ID']}")
         rider["rider_capacity"] -= order["order_volume"]
         rider["total_distance"] = min_distance
-        rider["our_profit"] = round((rider["Total_order_value"] * our_cut),roundoff_digit) - rider["total_distance"] * avg_cost_per_km
         rider["Total_order_value"] += order["Order_value"]
         print([rider])
         delhivery_time = calculate_delivery_time(rider)
-        print("delhivery time moon",delhivery_time)
-        rider["delivery_times"] = calculate_delivery_time(rider)
+        rider["delivery_times"] = delhivery_time
+        rider["our_profit"] = total_profit(rider)
         print_rider_details([rider])
+        
+        order["first_mile_distance"] = calculate_distance([rider["current_coordinates"]], [order["pickup_coordinates"]])
+        order["last_mile_distance"] = calculate_distance([order["pickup_coordinates"]], [order["delivery_coordinates"]])
+        order["first_mile_time"] = (order["first_mile_distance"]/first_mile_speed)*60
+        order["last_mile_time"] = (order["last_mile_distance"]/last_mile_speed)*60
+        
+        
+        
         return rider
-    # except KeyError as e:
-    #     print(f"Error: Missing key {e} in rider or order dictionary")
-    # except Exception as e:
-    #     print(f"An error occurred while appending order: {e}")
 
 
 def calculate_delivery_time(rider):
@@ -140,7 +155,7 @@ def calculate_delivery_time(rider):
         delhivery_time = (calculate_distance_for_delhivery_time(rider["current_coordinates"], pickup)/first_mile_speed)*60
         delhivery_time = delhivery_time + (calculate_distance_for_delhivery_time(pickup, delhivery)/last_mile_speed)*60
         delhivery_times.append({order["ORDER_ID"]:delhivery_time})
-        return delhivery_times
+        return delhivery_times 
     else:
         current_coordinates = rider["current_coordinates"]
         print("current coordinates",current_coordinates)
@@ -161,12 +176,13 @@ def calculate_delivery_time(rider):
             print("i = ",i)
             print("j = ",j)
 
-            delhivery_time = delhivery_time + (calculate_distance_for_delhivery_time(current_coordinates, coordinats[i])/first_mile_speed)*60
-            delhivery_time = delhivery_time + (calculate_distance_for_delhivery_time(coordinats[i], coordinats[j])/last_mile_speed)*60
+            # delhivery_time = delhivery_time + (calculate_distance_for_delhivery_time(current_coordinates, coordinats[i])/first_mile_speed)*60
+            delhivery_time = delhivery_time + (calculate_distance_for_delhivery_time(coordinats[j-1], coordinats[j])/last_mile_speed)*60
             delhivery_times.append({order["ORDER_ID"]:delhivery_time})
         return delhivery_times
 
-
+def update_rider(rider):
+    return rider
 
 
 def get_min_OTD(orders):

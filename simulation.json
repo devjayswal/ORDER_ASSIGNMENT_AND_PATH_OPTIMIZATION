@@ -1,0 +1,175 @@
+[
+    {
+        "RIDER_ID": "RID007",
+        "current_coordinates": [
+            11.4819,
+            1.9762
+        ],
+        "rider_capacity": 15,
+        "CART": [
+            {
+                "ORDER_ID": "ORD001",
+                "pickup_coordinates": [
+                    13.1954,
+                    1.4995
+                ],
+                "delivery_coordinates": [
+                    7.9154,
+                    3.7288
+                ],
+                "Order_value": 392.01,
+                "order_volume": 5,
+                "OTD": 36,
+                "Rider": "RID007"
+            }
+        ],
+        "coordinates": [
+            [
+                [
+                    13.1954,
+                    1.4995
+                ],
+                [
+                    7.9154,
+                    3.7288
+                ]
+            ]
+        ],
+        "route": [
+            [
+                13.1954,
+                1.4995
+            ],
+            [
+                7.9154,
+                3.7288
+            ]
+        ],
+        "rider_order_status": [
+            "PICKUP"
+        ],
+        "rider_flags": [],
+        "our_profit": 31.3608,
+        "rider_order": [],
+        "Total_order_value": 392.01,
+        "total_distance": 7.510000000000001,
+        "total_orders": 0,
+        "delivery_times": [
+            {
+                "ORD001": 27.193909561038318
+            }
+        ]
+    },
+    {
+        "RIDER_ID": "RID007",
+        "current_coordinates": [
+            11.4819,
+            1.9762
+        ],
+        "rider_capacity": 12,
+        "CART": [
+            {
+                "ORDER_ID": "ORD001",
+                "pickup_coordinates": [
+                    13.1954,
+                    1.4995
+                ],
+                "delivery_coordinates": [
+                    7.9154,
+                    3.7288
+                ],
+                "Order_value": 392.01,
+                "order_volume": 5,
+                "OTD": 36,
+                "Rider": "RID007"
+            },
+            {
+                "ORDER_ID": "ORD004",
+                "pickup_coordinates": [
+                    9.9585,
+                    2.6234
+                ],
+                "delivery_coordinates": [
+                    6.8167,
+                    5.2074
+                ],
+                "Order_value": 280.52,
+                "order_volume": 3,
+                "OTD": 39,
+                "Rider": "RID007"
+            }
+        ],
+        "coordinates": [
+            [
+                [
+                    13.1954,
+                    1.4995
+                ],
+                [
+                    7.9154,
+                    3.7288
+                ]
+            ],
+            [
+                [
+                    9.9585,
+                    2.6234
+                ],
+                [
+                    6.8167,
+                    5.2074
+                ]
+            ]
+        ],
+        "route": [
+            [
+                11.4819,
+                1.9762
+            ],
+            [
+                13.1954,
+                1.4995
+            ],
+            [
+                9.9585,
+                2.6234
+            ],
+            [
+                7.9154,
+                3.7288
+            ],
+            [
+                6.8167,
+                5.2074
+            ],
+            [
+                11.4819,
+                1.9762
+            ]
+        ],
+        "rider_order_status": [
+            "PICKUP",
+            "DELIVERY"
+        ],
+        "rider_flags": [
+            0,
+            1,
+            1,
+            1,
+            -1
+        ],
+        "our_profit": 3.787399999999998,
+        "rider_order": [],
+        "Total_order_value": 672.53,
+        "total_distance": 15.04,
+        "total_orders": 0,
+        "delivery_times": [
+            {
+                "ORD001": 9.29186032611339
+            },
+            {
+                "ORD004": 16.660333329388898
+            }
+        ]
+    }
+]

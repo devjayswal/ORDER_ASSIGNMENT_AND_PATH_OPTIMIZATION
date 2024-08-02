@@ -38,21 +38,6 @@ def get_longest_coordinate(rider):
     longest_coordinate.append(route[-2])
     print("here.....",longest_coordinate)
     return longest_coordinate
-    # for coors in coordinate:
-    #     (p,d) = coors
-    #     print(f"p = {p}")
-    #     print(f"d = {d}")
-    #     distance = calculate_distance(p, d)
-    #     if distance > max_distance:
-    #         longest_coordinate = [p,d]
-    #         max_distance = distance     
-    #         longest_coordinate = coors
-    #     print(f"longest_coordinate = {longest_coordinate}")
-    # return longest_coordinate
-        
-    # except Exception as e:
-    #     print(f"Error getting longest coordinate: {e}")
-    #     return None
 
 
 def is_in_the_route(rider, order2, shape='ellipse', major_axis_length=5, minor_axis_length=5):

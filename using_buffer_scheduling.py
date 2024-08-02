@@ -8,6 +8,7 @@ import math
 from math import radians, sin, cos, sqrt, atan2
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
+import time
 
 # importing the functions from other modules
 from test import generate_orders_and_riders
@@ -15,7 +16,7 @@ from utils import print_rider_details,  append_order, calculate_distance, calcul
 from generate_matrix import generate_matrixs,get_max_in_the_matrix,print_matrix
 from nearby_order import get_longest_coordinate,is_in_the_route
 from Optimize_route import optimize_route, extract_coordinates
-
+from Assignment import Assignment
 
 # Constants
 OTD = 60  # Order Time Delivery limit in minutes
@@ -39,82 +40,75 @@ maximum_percentage_of_bearable_loss_when_mulitple_orders_assign = 0.5 # 50% loss
 
 order_per_minute = 5 # order per minute
 maximum_order_per_day = 1000 # maximum order per day
+sleep_time = 5 # sleep time in seconds
+
+rider_num = 10
 
 assigned_orders = []
 unassigned_orders = []
 
-  
-def Assignment(orders, riders, assigned_orders, unassigned_orders):
-    print("Assignment function called")
-    """
-    Assigns orders to riders based on maximum profit and updates the matrices accordingly.
 
-    Args:
-    orders (list): List of ordeavr dictionaries.
-    riders (list): List of rider dictionaries.
-    assigned_orders (list): List to store assigned orders.
-    unassigned_orders (list): List to store unassigned orders.
-    """
-    iterations = 0
-    while len(orders) > 0:
-        #try:
-        iterations += 1
-        print(f"Iteration:.................. {iterations}")
-        # Generate matrices for profit, OTD, and distance
-        profit_matrix, OTD_matrix, distance_matrix, time_duration_matrix = generate_matrixs(orders, riders)
-        print("Generated Matrices:")
-        print("Profit Matrix:")
-        print_matrix(profit_matrix)
-        print("OTD Matrix:")
-        print_matrix(OTD_matrix)
-        print("Distance Matrix:")
-        print_matrix(distance_matrix)
-        print("Time Duration Matrix:")
-        print_matrix(time_duration_matrix)
+total_resto = 5
+total_attended_orders = 0
+min_lat, max_lat = 1, 15
+min_lon, max_lon = 1, 15
+
+
+resto_location=[
+        [round(random.uniform(min_lat, max_lat), 4), round(random.uniform(min_lon, max_lon), 4)]
+        for _ in range(total_resto)
+    ]
+rider_loc=[
+        [round(random.uniform(min_lat, max_lat), 4), round(random.uniform(min_lon, max_lon), 4)]
+        for _ in range(rider_num)
+    ]
+
+print("resto location",resto_location)
+
+orders1, riders1 = generate_orders_and_riders(order_per_minute,rider_loc,resto_location)
+assinged =0
+order2 = []
+order2.extend(orders1)
+total_assigned_orders =0
+iter = 0
+while maximum_order_per_day > 0:
+    maximum_order_per_day -= order_per_minute
+    total_attended_orders += order_per_minute
+    iter += 1
+
+    # Run the assignment function
+    new_assigned_orders, unassigned_orders, riders = Assignment(order2, riders1, assigned_orders, unassigned_orders)
+
+    print(f"ITERATION: {iter}")
+    print("Assigned Orders in this iter:")
+    print(len(new_assigned_orders))
+    # Update assigned_orders list by appending new assignments
     
+    assigned_orders.extend(new_assigned_orders)
+
+    print(f"Order remain in unassigned orders: {len(unassigned_orders)} + New orders: {order_per_minute} = {len(unassigned_orders) + order_per_minute}")
+    print(f"Total Attended Orders: {total_attended_orders}")
     
-        # Get the maximum profit calculate_delivery_timeand corresponding indices
-        max_profit, rider_index, order_index = get_max_in_the_matrix(profit_matrix)
-        print(f"Max Profit: {max_profit}, Rider Index: {rider_index}, Order Index: {order_index}")
-        if max_profit < min_profit:
-            for order in orders:
-                unassigned_orders.append(order)
-            print(f"There are no orders where the profit is less than {min_profit} for all riders")
-            return assigned_orders, unassigned_orders,riders
-        print(f"Profit is positive : Max Profit: {max_profit}, Rider Index: {rider_index}, Order Index: {order_index}")
+    # Total assigned orders across all iterations
+    total_assigned_orders = len(assigned_orders)
+    print("Total Assigned Orders:")
+    print(total_assigned_orders)
     
-        # Check if indices are valid
-        if rider_index != -1 and order_index != -1:
-            print(f"Assigning order {orders[order_index]['ORDER_ID']} to rider {riders[rider_index]['RIDER_ID']}")
-        
-            # Append the order to the rider's route
-            riders[rider_index] = append_order(orders[order_index], riders[rider_index])
 
-            # Add the assigned order to the assigned_orders list and remove it from the orders list
-            assigned_orders.append(orders[order_index])
-            orders.pop(order_index)
-            
-        else:
-            print("No valid assignment found. Moving to next iteration.")
+    
+    print("Unassigned Orders in this iter:")
+    print(len(unassigned_orders))
 
-    #except Exception as e:
-        # print(f"Error in assignment process: {e}")
-        # break
-    print("All orders have been assigned.")
-    print("Assigned Orders:")
-    print(assigned_orders)
-    print("Unassigned Orders:")
-    print(unassigned_orders)
-    return assigned_orders, unassigned_orders , riders
+    # Generate new orders
+    orders, riders = generate_orders_and_riders(order_per_minute, rider_loc, resto_location)
+    
+    # Prepare orders for the next iteration
+    order2 = orders + unassigned_orders
 
-orders, riders = generate_orders_and_riders(5,2,2)
+    unassigned_orders = []
 
-assigned_orders,unassigned_orders,riders = Assignment(orders, riders, assigned_orders, unassigned_orders)
-
-
-print("Assigned Orders:")
-print(len(assigned_orders))
-print("Unassigned Orders:")
-print(len(unassigned_orders))
-
-print_rider_details(riders)
+    # Print rider details
+    print_rider_details(riders1)
+    
+    # Pause for the next iteration
+    time.sleep(sleep_time)

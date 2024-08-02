@@ -34,7 +34,8 @@ maximum_percentage_of_bearable_loss_when_mulitple_orders_assign = 0.5 # 50% loss
 #Contain funtions which is used to test the model
 
 
-def generate_orders_and_riders(order_num, rider_num,number_of_max_restorents):
+def generate_orders_and_riders(order_num, rider_loc,resto_location):
+    
     """
     Generate random orders and riders for testing purposes.
     """
@@ -42,15 +43,12 @@ def generate_orders_and_riders(order_num, rider_num,number_of_max_restorents):
     riders = []
 
     # Latitude and longitude bounds for the random generation
-    min_order_price, max_order_price = 50,500
+    min_order_price, max_order_price = 200,500
     min_lat, max_lat = 1, 15
     min_lon, max_lon = 1, 15
 
     # Fixed pickup coordinates
-    pickup_locations = [
-        [round(random.uniform(min_lat, max_lat), 4), round(random.uniform(min_lon, max_lon), 4)]
-        for _ in range(number_of_max_restorents)
-    ]
+    print(resto_location)
     # Generate orders
     for i in range(order_num):
         
@@ -58,20 +56,24 @@ def generate_orders_and_riders(order_num, rider_num,number_of_max_restorents):
         delivery_coordinates = [round(random.uniform(min_lat, max_lat), 4), round(random.uniform(min_lon, max_lon), 4)]
         orders.append({
             "ORDER_ID": order_id,
-            "pickup_coordinates": random.choice(pickup_locations),
+            "pickup_coordinates": random.choice(resto_location),
             "delivery_coordinates": delivery_coordinates,
             "Order_value": round(random.uniform(min_order_price, max_order_price), 2),
             "order_volume": random.randint(1, 5),
             "OTD" : random.randint(30, 60),
             "Rider" : None,
+            "first_mile_distance": 0,
+            "last_mile_distance": 0,
+            "first_mile_time": 0,
+            "last_mile_time": 0,
         })
 
     # Generate riders
-    for i in range(rider_num):
+    for i in range(len(rider_loc)):
         rider_id = f"RID{i+1:03}"
         riders.append({
             "RIDER_ID": rider_id,
-            "current_coordinates": [round(random.uniform(min_lat, max_lat), 4), round(random.uniform(min_lon, max_lon), 4)],
+            "current_coordinates": rider_loc[i],
             "rider_capacity": rider_capacity,
             "CART":[],
             "coordinates": [],

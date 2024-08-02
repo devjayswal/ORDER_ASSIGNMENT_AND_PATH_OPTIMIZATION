@@ -1,0 +1,3611 @@
+[
+    {
+    "RIDER_ID": "RID006",
+    "current_coordinates": [
+        2.8479,
+        4.1732
+    ],
+    "rider_capacity": 15,
+    "CART": [
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                4.8939,
+                6.1354
+            ],
+            "delivery_coordinates": [
+                5.712,
+                8.3007
+            ],
+            "Order_value": 330.16,
+            "order_volume": 5,
+            "OTD": 49,
+            "Rider": "RID006",
+            "first_mile_distance": 2.83,
+            "last_mile_distance": 2.31,
+            "first_mile_time": 6.792000000000001,
+            "last_mile_time": 9.24
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                4.8939,
+                6.1354
+            ],
+            [
+                5.712,
+                8.3007
+            ]
+        ]
+    ],
+    "route": [
+        [
+            4.8939,
+            6.1354
+        ],
+        [
+            5.712,
+            8.3007
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 26.4128,
+    "rider_order": [],
+    "Total_order_value": 330.16,
+    "total_distance": 5.140000000000001,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD001": 16.062406361273183
+        }
+    ]
+},
+{
+    "RIDER_ID": "RID006",
+    "current_coordinates": [
+        9.5655,
+        10.573
+    ],
+    "rider_capacity": 18,
+    "CART": [
+        {
+            "ORDER_ID": "ORD005",
+            "pickup_coordinates": [
+                11.7591,
+                7.8503
+            ],
+            "delivery_coordinates": [
+                10.3841,
+                8.2875
+            ],
+            "Order_value": 307.23,
+            "order_volume": 2,
+            "OTD": 33,
+            "Rider": "RID006",
+            "first_mile_distance": 3.5,
+            "last_mile_distance": 1.44,
+            "first_mile_time": 8.4,
+            "last_mile_time": 5.76
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.7591,
+                7.8503
+            ],
+            [
+                10.3841,
+                8.2875
+            ]
+        ]
+    ],
+    "route": [
+        [
+            11.7591,
+            7.8503
+        ],
+        [
+            10.3841,
+            8.2875
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 24.5784,
+    "rider_order": [],
+    "Total_order_value": 307.23,
+    "total_distance": 4.9399999999999995,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD005": 14.162750501804112
+        }
+    ]
+},
+{
+    "RIDER_ID": "RID006",
+    "current_coordinates": [
+        9.5655,
+        10.573
+    ],
+    "rider_capacity": 15,
+    "CART": [
+        {
+            "ORDER_ID": "ORD005",
+            "pickup_coordinates": [
+                11.7591,
+                7.8503
+            ],
+            "delivery_coordinates": [
+                10.3841,
+                8.2875
+            ],
+            "Order_value": 307.23,
+            "order_volume": 2,
+            "OTD": 33,
+            "Rider": "RID006",
+            "first_mile_distance": 3.5,
+            "last_mile_distance": 1.44,
+            "first_mile_time": 8.4,
+            "last_mile_time": 5.76
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.7591,
+                7.8503
+            ],
+            "delivery_coordinates": [
+                12.6992,
+                8.1964
+            ],
+            "Order_value": 277.66,
+            "order_volume": 3,
+            "OTD": 32,
+            "Rider": "RID006",
+            "first_mile_distance": 3.5,
+            "last_mile_distance": 1.0,
+            "first_mile_time": 8.4,
+            "last_mile_time": 4.0
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.7591,
+                7.8503
+            ],
+            [
+                10.3841,
+                8.2875
+            ]
+        ],
+        [
+            [
+                11.7591,
+                7.8503
+            ],
+            [
+                12.6992,
+                8.1964
+            ]
+        ]
+    ],
+    "route": [
+        [
+            9.5655,
+            10.573
+        ],
+        [
+            11.7591,
+            7.8503
+        ],
+        [
+            12.6992,
+            8.1964
+        ],
+        [
+            10.3841,
+            8.2875
+        ],
+        [
+            9.5655,
+            10.573
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 11.04120000000001,
+    "rider_order": [],
+    "Total_order_value": 584.8900000000001,
+    "total_distance": 9.25,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD005": 9.267566860832456
+        },
+        {
+            "ORD004": 13.274706928262091
+        }
+    ]
+},
+{
+    "RIDER_ID": "RID006",
+    "current_coordinates": [
+        9.5655,
+        10.573
+    ],
+    "rider_capacity": 14,
+    "CART": [
+        {
+            "ORDER_ID": "ORD005",
+            "pickup_coordinates": [
+                11.7591,
+                7.8503
+            ],
+            "delivery_coordinates": [
+                10.3841,
+                8.2875
+            ],
+            "Order_value": 307.23,
+            "order_volume": 2,
+            "OTD": 33,
+            "Rider": "RID006",
+            "first_mile_distance": 3.5,
+            "last_mile_distance": 1.44,
+            "first_mile_time": 8.4,
+            "last_mile_time": 5.76
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.7591,
+                7.8503
+            ],
+            "delivery_coordinates": [
+                12.6992,
+                8.1964
+            ],
+            "Order_value": 277.66,
+            "order_volume": 3,
+            "OTD": 32,
+            "Rider": "RID006",
+            "first_mile_distance": 3.5,
+            "last_mile_distance": 1.0,
+            "first_mile_time": 8.4,
+            "last_mile_time": 4.0
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.7591,
+                7.8503
+            ],
+            "delivery_coordinates": [
+                14.8221,
+                11.9586
+            ],
+            "Order_value": 356.49,
+            "order_volume": 1,
+            "OTD": 44,
+            "Rider": "RID006",
+            "first_mile_distance": 3.5,
+            "last_mile_distance": 5.12,
+            "first_mile_time": 8.4,
+            "last_mile_time": 20.48
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.7591,
+                7.8503
+            ],
+            [
+                10.3841,
+                8.2875
+            ]
+        ],
+        [
+            [
+                11.7591,
+                7.8503
+            ],
+            [
+                12.6992,
+                8.1964
+            ]
+        ],
+        [
+            [
+                11.7591,
+                7.8503
+            ],
+            [
+                14.8221,
+                11.9586
+            ]
+        ]
+    ],
+    "route": [
+        [
+            9.5655,
+            10.573
+        ],
+        [
+            11.7591,
+            7.8503
+        ],
+        [
+            12.6992,
+            8.1964
+        ],
+        [
+            14.8221,
+            11.9586
+        ],
+        [
+            10.3841,
+            8.2875
+        ],
+        [
+            9.5655,
+            10.573
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 0.7604000000000184,
+    "rider_order": [],
+    "Total_order_value": 941.3800000000001,
+    "total_distance": 17.01,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD005": 23.038339943667822
+        },
+        {
+            "ORD004": 27.045480011097457
+        },
+        {
+            "ORD002": 44.32476390829644
+        }
+    ]
+}]{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        5.7881,
+        13.3155
+    ],
+    "rider_capacity": 17,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.7634,
+                12.4487
+            ],
+            "Order_value": 223.01,
+            "order_volume": 3,
+            "OTD": 31,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 7.08,
+            "last_mile_time": 7.08
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.7634,
+                12.4487
+            ]
+        ]
+    ],
+    "route": [
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            6.7634,
+            12.4487
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 17.8408,
+    "rider_order": [],
+    "Total_order_value": 223.01,
+    "total_distance": 4.720000000000001,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 14.168812006146947
+        }
+    ]
+}{
+    "RIDER_ID": "RID006",
+    "current_coordinates": [
+        12.6651,
+        11.4287
+    ],
+    "rider_capacity": 17,
+    "CART": [
+        {
+            "ORDER_ID": "ORD005",
+            "pickup_coordinates": [
+                10.1433,
+                13.6298
+            ],
+            "delivery_coordinates": [
+                9.6854,
+                8.89
+            ],
+            "Order_value": 422.93,
+            "order_volume": 3,
+            "OTD": 48,
+            "Rider": "RID006",
+            "first_mile_distance": 3.35,
+            "last_mile_distance": 4.76,
+            "first_mile_time": 8.040000000000001,
+            "last_mile_time": 19.04
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                10.1433,
+                13.6298
+            ],
+            [
+                9.6854,
+                8.89
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.1433,
+            13.6298
+        ],
+        [
+            9.6854,
+            8.89
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 33.8344,
+    "rider_order": [],
+    "Total_order_value": 422.93,
+    "total_distance": 8.11,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD005": 27.080951481198742
+        }
+    ]
+}{
+    "RIDER_ID": "RID001",
+    "current_coordinates": [
+        6.1688,
+        7.9568
+    ],
+    "rider_capacity": 15,
+    "CART": [
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                12.0105,
+                9.2132
+            ],
+            "Order_value": 408.03,
+            "order_volume": 5,
+            "OTD": 30,
+            "Rider": "RID001",
+            "first_mile_distance": 2.98,
+            "last_mile_distance": 5.01,
+            "first_mile_time": 7.152,
+            "last_mile_time": 20.04
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                12.0105,
+                9.2132
+            ]
+        ]
+    ],
+    "route": [
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            12.0105,
+            9.2132
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 32.6424,
+    "rider_order": [],
+    "Total_order_value": 408.03,
+    "total_distance": 7.99,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD001": 27.21468734715217
+        }
+    ]
+}{
+    "RIDER_ID": "RID008",
+    "current_coordinates": [
+        12.9158,
+        5.9024
+    ],
+    "rider_capacity": 19,
+    "CART": [
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                13.8752,
+                2.8871
+            ],
+            "delivery_coordinates": [
+                6.9895,
+                4.0552
+            ],
+            "Order_value": 493.63,
+            "order_volume": 1,
+            "OTD": 31,
+            "Rider": "RID008",
+            "first_mile_distance": 3.16,
+            "last_mile_distance": 6.98,
+            "first_mile_time": 7.5840000000000005,
+            "last_mile_time": 27.92
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                13.8752,
+                2.8871
+            ],
+            [
+                6.9895,
+                4.0552
+            ]
+        ]
+    ],
+    "route": [
+        [
+            13.8752,
+            2.8871
+        ],
+        [
+            6.9895,
+            4.0552
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 39.4904,
+    "rider_order": [],
+    "Total_order_value": 493.63,
+    "total_distance": 10.14,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD003": 35.53050696005661
+        }
+    ]
+}{
+    "RIDER_ID": "RID007",
+    "current_coordinates": [
+        10.5623,
+        4.7988
+    ],
+    "rider_capacity": 19,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                10.0188,
+                2.223
+            ],
+            "Order_value": 391.07,
+            "order_volume": 1,
+            "OTD": 42,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 3.09,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 12.36
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                10.0188,
+                2.223
+            ]
+        ]
+    ],
+    "route": [
+        [
+            11.1813,
+            5.0903
+        ],
+        [
+            10.0188,
+            2.223
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 31.2856,
+    "rider_order": [],
+    "Total_order_value": 391.07,
+    "total_distance": 3.77,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 14.018073105864818
+        }
+    ]
+}{
+    "RIDER_ID": "RID009",
+    "current_coordinates": [
+        10.5549,
+        9.5033
+    ],
+    "rider_capacity": 17,
+    "CART": [
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                8.9639,
+                7.3974
+            ],
+            "Order_value": 435.62,
+            "order_volume": 3,
+            "OTD": 49,
+            "Rider": "RID009",
+            "first_mile_distance": 3.54,
+            "last_mile_distance": 3.76,
+            "first_mile_time": 8.496,
+            "last_mile_time": 15.04
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                8.9639,
+                7.3974
+            ]
+        ]
+    ],
+    "route": [
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            8.9639,
+            7.3974
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 34.8496,
+    "rider_order": [],
+    "Total_order_value": 435.62,
+    "total_distance": 7.3,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD001": 23.564769449136218
+        }
+    ]
+}{
+    "RIDER_ID": "RID007",
+    "current_coordinates": [
+        10.5623,
+        4.7988
+    ],
+    "rider_capacity": 15,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                10.0188,
+                2.223
+            ],
+            "Order_value": 391.07,
+            "order_volume": 1,
+            "OTD": 42,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 3.09,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 12.36
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                9.3935,
+                5.7585
+            ],
+            "Order_value": 404.48,
+            "order_volume": 4,
+            "OTD": 57,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.91,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.64
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                10.0188,
+                2.223
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                9.3935,
+                5.7585
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.5623,
+            4.7988
+        ],
+        [
+            11.1813,
+            5.0903
+        ],
+        [
+            9.3935,
+            5.7585
+        ],
+        [
+            10.0188,
+            2.223
+        ],
+        [
+            10.5623,
+            4.7988
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 21.634,
+    "rider_order": [],
+    "Total_order_value": 795.55,
+    "total_distance": 8.809999999999999,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 14.361482007091052
+        },
+        {
+            "ORD004": 21.995846504545966
+        }
+    ]
+}{
+    "RIDER_ID": "RID005",
+    "current_coordinates": [
+        10.9436,
+        6.8799
+    ],
+    "rider_capacity": 16,
+    "CART": [
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                13.8752,
+                2.8871
+            ],
+            "delivery_coordinates": [
+                13.0173,
+                1.341
+            ],
+            "Order_value": 487.1,
+            "order_volume": 4,
+            "OTD": 58,
+            "Rider": "RID005",
+            "first_mile_distance": 4.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 11.88,
+            "last_mile_time": 7.08
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                13.8752,
+                2.8871
+            ],
+            [
+                13.0173,
+                1.341
+            ]
+        ]
+    ],
+    "route": [
+        [
+            13.8752,
+            2.8871
+        ],
+        [
+            13.0173,
+            1.341
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 38.968,
+    "rider_order": [],
+    "Total_order_value": 487.1,
+    "total_distance": 6.720000000000001,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD003": 18.960966866560685
+        }
+    ]
+}{
+    "RIDER_ID": "RID010",
+    "current_coordinates": [
+        13.7496,
+        12.9377
+    ],
+    "rider_capacity": 16,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                10.1433,
+                13.6298
+            ],
+            "delivery_coordinates": [
+                8.5367,
+                13.9703
+            ],
+            "Order_value": 291.55,
+            "order_volume": 4,
+            "OTD": 53,
+            "Rider": "RID010",
+            "first_mile_distance": 3.67,
+            "last_mile_distance": 1.64,
+            "first_mile_time": 8.808,
+            "last_mile_time": 6.56
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                10.1433,
+                13.6298
+            ],
+            [
+                8.5367,
+                13.9703
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.1433,
+            13.6298
+        ],
+        [
+            8.5367,
+            13.9703
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 23.324,
+    "rider_order": [],
+    "Total_order_value": 291.55,
+    "total_distance": 5.31,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 15.382211962912976
+        }
+    ]
+}{
+    "RIDER_ID": "RID007",
+    "current_coordinates": [
+        10.5623,
+        4.7988
+    ],
+    "rider_capacity": 11,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                10.0188,
+                2.223
+            ],
+            "Order_value": 391.07,
+            "order_volume": 1,
+            "OTD": 42,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 3.09,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 12.36
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                9.3935,
+                5.7585
+            ],
+            "Order_value": 404.48,
+            "order_volume": 4,
+            "OTD": 57,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.91,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.64
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                11.9058,
+                3.361
+            ],
+            "Order_value": 266.98,
+            "order_volume": 4,
+            "OTD": 41,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.87,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.48
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                10.0188,
+                2.223
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                9.3935,
+                5.7585
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                11.9058,
+                3.361
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.5623,
+            4.7988
+        ],
+        [
+            11.1813,
+            5.0903
+        ],
+        [
+            11.9058,
+            3.361
+        ],
+        [
+            10.0188,
+            2.223
+        ],
+        [
+            9.3935,
+            5.7585
+        ],
+        [
+            10.5623,
+            4.7988
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 37.7924,
+    "rider_order": [],
+    "Total_order_value": 1062.53,
+    "total_distance": 9.85,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 8.814363732000169
+        },
+        {
+            "ORD004": 23.175845739091223
+        },
+        {
+            "ORD002": 30.675583057157766
+        }
+    ]
+}{
+    "RIDER_ID": "RID002",
+    "current_coordinates": [
+        13.7672,
+        11.7837
+    ],
+    "rider_capacity": 15,
+    "CART": [
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.5491,
+                8.6414
+            ],
+            "Order_value": 425.56,
+            "order_volume": 5,
+            "OTD": 31,
+            "Rider": "RID002",
+            "first_mile_distance": 6.62,
+            "last_mile_distance": 2.21,
+            "first_mile_time": 15.887999999999998,
+            "last_mile_time": 8.84
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.5491,
+                8.6414
+            ]
+        ]
+    ],
+    "route": [
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            6.5491,
+            8.6414
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 34.0448,
+    "rider_order": [],
+    "Total_order_value": 425.56,
+    "total_distance": 8.83,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD004": 24.714013579295788
+        }
+    ]
+}{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        5.7881,
+        13.3155
+    ],
+    "rider_capacity": 15,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.7634,
+                12.4487
+            ],
+            "Order_value": 223.01,
+            "order_volume": 3,
+            "OTD": 31,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 7.08,
+            "last_mile_time": 7.08
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                7.7491,
+                9.5289
+            ],
+            "Order_value": 438.28,
+            "order_volume": 2,
+            "OTD": 30,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.32,
+            "first_mile_time": 7.08,
+            "last_mile_time": 5.28
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.7634,
+                12.4487
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                7.7491,
+                9.5289
+            ]
+        ]
+    ],
+    "route": [
+        [
+            5.7881,
+            13.3155
+        ],
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            7.7491,
+            9.5289
+        ],
+        [
+            6.7634,
+            12.4487
+        ],
+        [
+            5.7881,
+            13.3155
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 18.5032,
+    "rider_order": [],
+    "Total_order_value": 661.29,
+    "total_distance": 8.65,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 12.326775104624893
+        },
+        {
+            "ORD004": 17.59666507691084
+        }
+    ]
+}{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        5.7881,
+        13.3155
+    ],
+    "rider_capacity": 13,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.7634,
+                12.4487
+            ],
+            "Order_value": 223.01,
+            "order_volume": 3,
+            "OTD": 31,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 7.08,
+            "last_mile_time": 7.08
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                7.7491,
+                9.5289
+            ],
+            "Order_value": 438.28,
+            "order_volume": 2,
+            "OTD": 30,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.32,
+            "first_mile_time": 7.08,
+            "last_mile_time": 5.28
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                2.6792,
+                9.5842
+            ],
+            "Order_value": 385.96,
+            "order_volume": 2,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 4.7,
+            "first_mile_time": 7.08,
+            "last_mile_time": 18.8
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.7634,
+                12.4487
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                7.7491,
+                9.5289
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                2.6792,
+                9.5842
+            ]
+        ]
+    ],
+    "route": [
+        [
+            5.7881,
+            13.3155
+        ],
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            7.7491,
+            9.5289
+        ],
+        [
+            2.6792,
+            9.5842
+        ],
+        [
+            6.7634,
+            12.4487
+        ],
+        [
+            5.7881,
+            13.3155
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 14.47999999999999,
+    "rider_order": [],
+    "Total_order_value": 1047.25,
+    "total_distance": 15.63,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 19.954367898783467
+        },
+        {
+            "ORD004": 25.224257871069412
+        },
+        {
+            "ORD001": 45.505064206124246
+        }
+    ]
+}{
+    "RIDER_ID": "RID004",
+    "current_coordinates": [
+        13.9335,
+        10.6042
+    ],
+    "rider_capacity": 17,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                2.1957,
+                13.1629
+            ],
+            "delivery_coordinates": [
+                4.7015,
+                12.7975
+            ],
+            "Order_value": 482.1,
+            "order_volume": 3,
+            "OTD": 41,
+            "Rider": "RID004",
+            "first_mile_distance": 12.01,
+            "last_mile_distance": 2.53,
+            "first_mile_time": 28.823999999999998,
+            "last_mile_time": 10.12
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                2.1957,
+                13.1629
+            ],
+            [
+                4.7015,
+                12.7975
+            ]
+        ]
+    ],
+    "route": [
+        [
+            2.1957,
+            13.1629
+        ],
+        [
+            4.7015,
+            12.7975
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 38.568,
+    "rider_order": [],
+    "Total_order_value": 482.1,
+    "total_distance": 14.54,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 38.961477303783795
+        }
+    ]
+}{
+    "RIDER_ID": "RID007",
+    "current_coordinates": [
+        10.5623,
+        4.7988
+    ],
+    "rider_capacity": 9,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                10.0188,
+                2.223
+            ],
+            "Order_value": 391.07,
+            "order_volume": 1,
+            "OTD": 42,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 3.09,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 12.36
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                9.3935,
+                5.7585
+            ],
+            "Order_value": 404.48,
+            "order_volume": 4,
+            "OTD": 57,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.91,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.64
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                11.9058,
+                3.361
+            ],
+            "Order_value": 266.98,
+            "order_volume": 4,
+            "OTD": 41,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.87,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.48
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                5.8916,
+                3.8571
+            ],
+            "Order_value": 213.76,
+            "order_volume": 2,
+            "OTD": 55,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 5.43,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 21.72
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                10.0188,
+                2.223
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                9.3935,
+                5.7585
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                11.9058,
+                3.361
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                5.8916,
+                3.8571
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.5623,
+            4.7988
+        ],
+        [
+            11.1813,
+            5.0903
+        ],
+        [
+            11.9058,
+            3.361
+        ],
+        [
+            10.0188,
+            2.223
+        ],
+        [
+            5.8916,
+            3.8571
+        ],
+        [
+            9.3935,
+            5.7585
+        ],
+        [
+            10.5623,
+            4.7988
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 30.7432,
+    "rider_order": [],
+    "Total_order_value": 1276.29,
+    "total_distance": 14.680000000000001,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 8.814363732000169
+        },
+        {
+            "ORD004": 24.753560986567287
+        },
+        {
+            "ORD002": 32.25329830463383
+        },
+        {
+            "ORD001": 50.00900168129565
+        }
+    ]
+}{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        5.7881,
+        13.3155
+    ],
+    "rider_capacity": 10,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.7634,
+                12.4487
+            ],
+            "Order_value": 223.01,
+            "order_volume": 3,
+            "OTD": 31,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 7.08,
+            "last_mile_time": 7.08
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                7.7491,
+                9.5289
+            ],
+            "Order_value": 438.28,
+            "order_volume": 2,
+            "OTD": 30,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.32,
+            "first_mile_time": 7.08,
+            "last_mile_time": 5.28
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                2.6792,
+                9.5842
+            ],
+            "Order_value": 385.96,
+            "order_volume": 2,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 4.7,
+            "first_mile_time": 7.08,
+            "last_mile_time": 18.8
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                12.6946,
+                9.0711
+            ],
+            "Order_value": 490.54,
+            "order_volume": 3,
+            "OTD": 35,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 5.71,
+            "first_mile_time": 7.08,
+            "last_mile_time": 22.84
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.7634,
+                12.4487
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                7.7491,
+                9.5289
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                2.6792,
+                9.5842
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                12.6946,
+                9.0711
+            ]
+        ]
+    ],
+    "route": [
+        [
+            5.7881,
+            13.3155
+        ],
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            12.6946,
+            9.0711
+        ],
+        [
+            7.7491,
+            9.5289
+        ],
+        [
+            2.6792,
+            9.5842
+        ],
+        [
+            6.7634,
+            12.4487
+        ],
+        [
+            5.7881,
+            13.3155
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 6.923199999999994,
+    "rider_order": [],
+    "Total_order_value": 1537.79,
+    "total_distance": 24.99,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 19.954367898783467
+        },
+        {
+            "ORD004": 39.82094328157151
+        },
+        {
+            "ORD001": 60.101749616626336
+        },
+        {
+            "ORD002": 82.94092525849221
+        }
+    ]
+}{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        5.7881,
+        13.3155
+    ],
+    "rider_capacity": 6,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.7634,
+                12.4487
+            ],
+            "Order_value": 223.01,
+            "order_volume": 3,
+            "OTD": 31,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 7.08,
+            "last_mile_time": 7.08
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                7.7491,
+                9.5289
+            ],
+            "Order_value": 438.28,
+            "order_volume": 2,
+            "OTD": 30,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.32,
+            "first_mile_time": 7.08,
+            "last_mile_time": 5.28
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                2.6792,
+                9.5842
+            ],
+            "Order_value": 385.96,
+            "order_volume": 2,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 4.7,
+            "first_mile_time": 7.08,
+            "last_mile_time": 18.8
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                12.6946,
+                9.0711
+            ],
+            "Order_value": 490.54,
+            "order_volume": 3,
+            "OTD": 35,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 5.71,
+            "first_mile_time": 7.08,
+            "last_mile_time": 22.84
+        },
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                14.3056,
+                9.7244
+            ],
+            "Order_value": 388.02,
+            "order_volume": 4,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 7.14,
+            "first_mile_time": 7.08,
+            "last_mile_time": 28.56
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.7634,
+                12.4487
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                7.7491,
+                9.5289
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                2.6792,
+                9.5842
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                12.6946,
+                9.0711
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                14.3056,
+                9.7244
+            ]
+        ]
+    ],
+    "route": [
+        [
+            5.7881,
+            13.3155
+        ],
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            14.3056,
+            9.7244
+        ],
+        [
+            12.6946,
+            9.0711
+        ],
+        [
+            7.7491,
+            9.5289
+        ],
+        [
+            2.6792,
+            9.5842
+        ],
+        [
+            6.7634,
+            12.4487
+        ],
+        [
+            5.7881,
+            13.3155
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 22.114800000000002,
+    "rider_order": [],
+    "Total_order_value": 1925.81,
+    "total_distance": 28.16,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 19.954367898783467
+        },
+        {
+            "ORD004": 39.82094328157151
+        },
+        {
+            "ORD001": 60.101749616626336
+        },
+        {
+            "ORD002": 67.05545008759862
+        },
+        {
+            "ORD003": 95.63032844464504
+        }
+    ]
+}{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        5.7881,
+        13.3155
+    ],
+    "rider_capacity": 4,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.7634,
+                12.4487
+            ],
+            "Order_value": 223.01,
+            "order_volume": 3,
+            "OTD": 31,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 7.08,
+            "last_mile_time": 7.08
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                7.7491,
+                9.5289
+            ],
+            "Order_value": 438.28,
+            "order_volume": 2,
+            "OTD": 30,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.32,
+            "first_mile_time": 7.08,
+            "last_mile_time": 5.28
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                2.6792,
+                9.5842
+            ],
+            "Order_value": 385.96,
+            "order_volume": 2,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 4.7,
+            "first_mile_time": 7.08,
+            "last_mile_time": 18.8
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                12.6946,
+                9.0711
+            ],
+            "Order_value": 490.54,
+            "order_volume": 3,
+            "OTD": 35,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 5.71,
+            "first_mile_time": 7.08,
+            "last_mile_time": 22.84
+        },
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                14.3056,
+                9.7244
+            ],
+            "Order_value": 388.02,
+            "order_volume": 4,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 7.14,
+            "first_mile_time": 7.08,
+            "last_mile_time": 28.56
+        },
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                11.144,
+                6.5248
+            ],
+            "Order_value": 316.83,
+            "order_volume": 2,
+            "OTD": 34,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 5.75,
+            "first_mile_time": 7.08,
+            "last_mile_time": 23.0
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.7634,
+                12.4487
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                7.7491,
+                9.5289
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                2.6792,
+                9.5842
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                12.6946,
+                9.0711
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                14.3056,
+                9.7244
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                11.144,
+                6.5248
+            ]
+        ]
+    ],
+    "route": [
+        [
+            5.7881,
+            13.3155
+        ],
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            14.3056,
+            9.7244
+        ],
+        [
+            12.6946,
+            9.0711
+        ],
+        [
+            11.144,
+            6.5248
+        ],
+        [
+            7.7491,
+            9.5289
+        ],
+        [
+            2.6792,
+            9.5842
+        ],
+        [
+            6.7634,
+            12.4487
+        ],
+        [
+            5.7881,
+            13.3155
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 34.761199999999945,
+    "rider_order": [],
+    "Total_order_value": 2242.64,
+    "total_distance": 30.7,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 19.954367898783467
+        },
+        {
+            "ORD004": 38.08719462602045
+        },
+        {
+            "ORD001": 58.36800096107528
+        },
+        {
+            "ORD002": 65.32170143204756
+        },
+        {
+            "ORD003": 93.89657978909398
+        },
+        {
+            "ORD003": 105.82168208634911
+        }
+    ]
+}{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        5.7881,
+        13.3155
+    ],
+    "rider_capacity": 1,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                6.7634,
+                12.4487
+            ],
+            "Order_value": 223.01,
+            "order_volume": 3,
+            "OTD": 31,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.77,
+            "first_mile_time": 7.08,
+            "last_mile_time": 7.08
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                7.7491,
+                9.5289
+            ],
+            "Order_value": 438.28,
+            "order_volume": 2,
+            "OTD": 30,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 1.32,
+            "first_mile_time": 7.08,
+            "last_mile_time": 5.28
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                2.6792,
+                9.5842
+            ],
+            "Order_value": 385.96,
+            "order_volume": 2,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 4.7,
+            "first_mile_time": 7.08,
+            "last_mile_time": 18.8
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                12.6946,
+                9.0711
+            ],
+            "Order_value": 490.54,
+            "order_volume": 3,
+            "OTD": 35,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 5.71,
+            "first_mile_time": 7.08,
+            "last_mile_time": 22.84
+        },
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                14.3056,
+                9.7244
+            ],
+            "Order_value": 388.02,
+            "order_volume": 4,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 7.14,
+            "first_mile_time": 7.08,
+            "last_mile_time": 28.56
+        },
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                11.144,
+                6.5248
+            ],
+            "Order_value": 316.83,
+            "order_volume": 2,
+            "OTD": 34,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 5.75,
+            "first_mile_time": 7.08,
+            "last_mile_time": 23.0
+        },
+        {
+            "ORDER_ID": "ORD005",
+            "pickup_coordinates": [
+                7.2347,
+                10.7418
+            ],
+            "delivery_coordinates": [
+                12.5127,
+                5.157
+            ],
+            "Order_value": 383.04,
+            "order_volume": 3,
+            "OTD": 51,
+            "Rider": "RID003",
+            "first_mile_distance": 2.95,
+            "last_mile_distance": 7.68,
+            "first_mile_time": 7.08,
+            "last_mile_time": 30.72
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                6.7634,
+                12.4487
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                7.7491,
+                9.5289
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                2.6792,
+                9.5842
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                12.6946,
+                9.0711
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                14.3056,
+                9.7244
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                11.144,
+                6.5248
+            ]
+        ],
+        [
+            [
+                7.2347,
+                10.7418
+            ],
+            [
+                12.5127,
+                5.157
+            ]
+        ]
+    ],
+    "route": [
+        [
+            5.7881,
+            13.3155
+        ],
+        [
+            7.2347,
+            10.7418
+        ],
+        [
+            7.7491,
+            9.5289
+        ],
+        [
+            12.6946,
+            9.0711
+        ],
+        [
+            14.3056,
+            9.7244
+        ],
+        [
+            12.5127,
+            5.157
+        ],
+        [
+            11.144,
+            6.5248
+        ],
+        [
+            2.6792,
+            9.5842
+        ],
+        [
+            6.7634,
+            12.4487
+        ],
+        [
+            5.7881,
+            13.3155
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 53.3544,
+    "rider_order": [],
+    "Total_order_value": 2625.68,
+    "total_distance": 33.11,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 19.954367898783467
+        },
+        {
+            "ORD004": 25.224257871069412
+        },
+        {
+            "ORD001": 61.22709495927678
+        },
+        {
+            "ORD002": 81.09367034206483
+        },
+        {
+            "ORD003": 88.0473708130371
+        },
+        {
+            "ORD003": 95.7873620585102
+        },
+        {
+            "ORD005": 115.41413282499137
+        }
+    ]
+}{
+    "RIDER_ID": "RID007",
+    "current_coordinates": [
+        10.5623,
+        4.7988
+    ],
+    "rider_capacity": 6,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                10.0188,
+                2.223
+            ],
+            "Order_value": 391.07,
+            "order_volume": 1,
+            "OTD": 42,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 3.09,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 12.36
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                9.3935,
+                5.7585
+            ],
+            "Order_value": 404.48,
+            "order_volume": 4,
+            "OTD": 57,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.91,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.64
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                11.9058,
+                3.361
+            ],
+            "Order_value": 266.98,
+            "order_volume": 4,
+            "OTD": 41,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.87,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.48
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                5.8916,
+                3.8571
+            ],
+            "Order_value": 213.76,
+            "order_volume": 2,
+            "OTD": 55,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 5.43,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 21.72
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                6.0945,
+                2.8429
+            ],
+            "Order_value": 487.72,
+            "order_volume": 3,
+            "OTD": 51,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 5.56,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 22.24
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                10.0188,
+                2.223
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                9.3935,
+                5.7585
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                11.9058,
+                3.361
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                5.8916,
+                3.8571
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                6.0945,
+                2.8429
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.5623,
+            4.7988
+        ],
+        [
+            11.1813,
+            5.0903
+        ],
+        [
+            11.9058,
+            3.361
+        ],
+        [
+            10.0188,
+            2.223
+        ],
+        [
+            6.0945,
+            2.8429
+        ],
+        [
+            5.8916,
+            3.8571
+        ],
+        [
+            9.3935,
+            5.7585
+        ],
+        [
+            10.5623,
+            4.7988
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 66.9608,
+    "rider_order": [],
+    "Total_order_value": 1764.01,
+    "total_distance": 15.24,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 8.814363732000169
+        },
+        {
+            "ORD004": 24.753560986567287
+        },
+        {
+            "ORD002": 32.25329830463383
+        },
+        {
+            "ORD001": 36.390485851748416
+        },
+        {
+            "ORD001": 52.282323505084804
+        }
+    ]
+}{
+    "RIDER_ID": "RID007",
+    "current_coordinates": [
+        10.5623,
+        4.7988
+    ],
+    "rider_capacity": 2,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                10.0188,
+                2.223
+            ],
+            "Order_value": 391.07,
+            "order_volume": 1,
+            "OTD": 42,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 3.09,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 12.36
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                9.3935,
+                5.7585
+            ],
+            "Order_value": 404.48,
+            "order_volume": 4,
+            "OTD": 57,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.91,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.64
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                11.9058,
+                3.361
+            ],
+            "Order_value": 266.98,
+            "order_volume": 4,
+            "OTD": 41,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.87,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.48
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                5.8916,
+                3.8571
+            ],
+            "Order_value": 213.76,
+            "order_volume": 2,
+            "OTD": 55,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 5.43,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 21.72
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                6.0945,
+                2.8429
+            ],
+            "Order_value": 487.72,
+            "order_volume": 3,
+            "OTD": 51,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 5.56,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 22.24
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                2.9491,
+                3.1486
+            ],
+            "Order_value": 353.13,
+            "order_volume": 4,
+            "OTD": 54,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 8.46,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 33.84
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                10.0188,
+                2.223
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                9.3935,
+                5.7585
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                11.9058,
+                3.361
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                5.8916,
+                3.8571
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                6.0945,
+                2.8429
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                2.9491,
+                3.1486
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.5623,
+            4.7988
+        ],
+        [
+            11.1813,
+            5.0903
+        ],
+        [
+            11.9058,
+            3.361
+        ],
+        [
+            10.0188,
+            2.223
+        ],
+        [
+            6.0945,
+            2.8429
+        ],
+        [
+            2.9491,
+            3.1486
+        ],
+        [
+            5.8916,
+            3.8571
+        ],
+        [
+            9.3935,
+            5.7585
+        ],
+        [
+            10.5623,
+            4.7988
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 69.4112,
+    "rider_order": [],
+    "Total_order_value": 2117.14,
+    "total_distance": 20.400000000000002,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 8.814363732000169
+        },
+        {
+            "ORD004": 24.753560986567287
+        },
+        {
+            "ORD002": 32.25329830463383
+        },
+        {
+            "ORD001": 44.35967910155246
+        },
+        {
+            "ORD001": 60.25151675488885
+        },
+        {
+            "ORD004": 72.89239878107674
+        }
+    ]
+}{
+    "RIDER_ID": "RID007",
+    "current_coordinates": [
+        10.5623,
+        4.7988
+    ],
+    "rider_capacity": 1,
+    "CART": [
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                10.0188,
+                2.223
+            ],
+            "Order_value": 391.07,
+            "order_volume": 1,
+            "OTD": 42,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 3.09,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 12.36
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                9.3935,
+                5.7585
+            ],
+            "Order_value": 404.48,
+            "order_volume": 4,
+            "OTD": 57,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.91,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.64
+        },
+        {
+            "ORDER_ID": "ORD002",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                11.9058,
+                3.361
+            ],
+            "Order_value": 266.98,
+            "order_volume": 4,
+            "OTD": 41,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 1.87,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 7.48
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                5.8916,
+                3.8571
+            ],
+            "Order_value": 213.76,
+            "order_volume": 2,
+            "OTD": 55,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 5.43,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 21.72
+        },
+        {
+            "ORDER_ID": "ORD001",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                6.0945,
+                2.8429
+            ],
+            "Order_value": 487.72,
+            "order_volume": 3,
+            "OTD": 51,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 5.56,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 22.24
+        },
+        {
+            "ORDER_ID": "ORD004",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                2.9491,
+                3.1486
+            ],
+            "Order_value": 353.13,
+            "order_volume": 4,
+            "OTD": 54,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 8.46,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 33.84
+        },
+        {
+            "ORDER_ID": "ORD003",
+            "pickup_coordinates": [
+                11.1813,
+                5.0903
+            ],
+            "delivery_coordinates": [
+                4.0344,
+                12.7117
+            ],
+            "Order_value": 407.94,
+            "order_volume": 1,
+            "OTD": 60,
+            "Rider": "RID007",
+            "first_mile_distance": 0.68,
+            "last_mile_distance": 10.45,
+            "first_mile_time": 1.6320000000000001,
+            "last_mile_time": 41.8
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                10.0188,
+                2.223
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                9.3935,
+                5.7585
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                11.9058,
+                3.361
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                5.8916,
+                3.8571
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                6.0945,
+                2.8429
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                2.9491,
+                3.1486
+            ]
+        ],
+        [
+            [
+                11.1813,
+                5.0903
+            ],
+            [
+                4.0344,
+                12.7117
+            ]
+        ]
+    ],
+    "route": [
+        [
+            10.5623,
+            4.7988
+        ],
+        [
+            11.1813,
+            5.0903
+        ],
+        [
+            11.9058,
+            3.361
+        ],
+        [
+            10.0188,
+            2.223
+        ],
+        [
+            6.0945,
+            2.8429
+        ],
+        [
+            5.8916,
+            3.8571
+        ],
+        [
+            2.9491,
+            3.1486
+        ],
+        [
+            4.0344,
+            12.7117
+        ],
+        [
+            9.3935,
+            5.7585
+        ],
+        [
+            10.5623,
+            4.7988
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY",
+        "DELIVERY"
+    ],
+    "rider_flags": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "our_profit": 40.59639999999999,
+    "rider_order": [],
+    "Total_order_value": 2525.08,
+    "total_distance": 32.69,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD002": 8.814363732000169
+        },
+        {
+            "ORD004": 43.92947570391335
+        },
+        {
+            "ORD002": 51.42921302197989
+        },
+        {
+            "ORD001": 55.566400569094476
+        },
+        {
+            "ORD001": 71.45823822243086
+        },
+        {
+            "ORD004": 83.5646190193495
+        },
+        {
+            "ORD003": 122.06256861669817
+        }
+    ]
+}{
+    "RIDER_ID": "RID003",
+    "current_coordinates": [
+        7.2569,
+        7.6604
+    ],
+    "rider_capacity": 17,
+    "CART": [
+        {
+            "ORDER_ID": "ORD005",
+            "pickup_coordinates": [
+                5.3023,
+                7.6334
+            ],
+            "delivery_coordinates": [
+                3.9317,
+                10.6657
+            ],
+            "Order_value": 374.82,
+            "order_volume": 3,
+            "OTD": 58,
+            "Rider": "RID003",
+            "first_mile_distance": 1.95,
+            "last_mile_distance": 3.33,
+            "first_mile_time": 4.68,
+            "last_mile_time": 13.32
+        }
+    ],
+    "coordinates": [
+        [
+            [
+                5.3023,
+                7.6334
+            ],
+            [
+                3.9317,
+                10.6657
+            ]
+        ]
+    ],
+    "route": [
+        [
+            5.3023,
+            7.6334
+        ],
+        [
+            3.9317,
+            10.6657
+        ]
+    ],
+    "rider_order_status": [
+        "PICKUP"
+    ],
+    "rider_flags": [],
+    "our_profit": 29.9856,
+    "rider_order": [],
+    "Total_order_value": 374.82,
+    "total_distance": 5.28,
+    "total_orders": 0,
+    "delivery_times": [
+        {
+            "ORD005": 18.002167550936335
+        }
+    ]
+}
