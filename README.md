@@ -1,99 +1,104 @@
 # ORDER_ASSIGNMENT_AND_PATH_OPTIMIZATION
-this repo  contains a complex  algorithm and there source code  which are able to   maximize the profit of  dilhivery company
 
-Main file  using_buffer_schedululing.py
-function contains in this file
+## 📦 Project Description
 
-1. Assignment  funtion which assign the orders to riders
- python dependcuies
- # importing nessary libraries
-    import copy
-    import random
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from itertools import permutations
-    import math
-    from math import radians, sin, cos, sqrt, atan2
-    import matplotlib.pyplot as plt
-    from matplotlib.patches import Ellipse
- 
- module dependencies
- # importing the functions from other modules
-    from test import generate_orders_and_riders
-    from utils import print_rider_details, print_matrix, append_order
-    from generate_matrix import generate_matrixs
-    from utils import get_max_in_the_matrix
+**ORDER_ASSIGNMENT_AND_PATH_OPTIMIZATION** is a Python-based solution developed to optimize order assignments and delivery routes for logistics companies. The primary goal is to enhance operational efficiency and maximize profits by implementing advanced algorithms for order distribution and path optimization.
 
+## 🧠 Overview
 
+This project addresses the challenges faced by delivery companies in assigning orders to riders and determining the most efficient delivery routes. By leveraging optimization techniques, the system aims to reduce delivery times, balance rider workloads, and improve overall customer satisfaction.
 
+## 📁 Project Structure
 
-constraints which is maybe fixed in the algorithm
+- **Assignment.py**: Contains functions related to assigning orders to riders.
+- **Optimize_route.py**: Implements route optimization algorithms to determine the most efficient delivery paths.
+- **generate_matrix.py**: Generates distance or cost matrices used in optimization calculations.
+- **nearby_order.py**: Identifies orders that are geographically close to each other to facilitate batch deliveries.
+- **plot.py**: Provides visualization tools for routes and assignments.
+- **using_buffer_scheduling.py**: Main script that integrates order assignment and route optimization functionalities.
+- **utils.py**: Contains utility functions used across various modules.
+- **rider.json**: Sample data representing rider information.
+- **simulation.json**: Sample data representing order simulations for testing purposes.
+- **test.py**: Script for testing the functionalities of different modules.
 
+## 🚀 Features
 
-# Constants
-OTD = 60  # Order Time Delivery limit in minutes
-first_mile_speed = 25  # Speed to reach pickup location in km/h
-last_mile_speed = 15   # Speed from pickup to delivery location in km/h
-return_mile_speed = 40 # Speed to return from delivery location to origin in km/h
-batch_size = 100  # Number of orders that can be assigned to a rider at once
-first_mile_cost = 2 # Cost to reach pickup location in km
-last_mile_cost = 5 # Cost to deliver from pickup location to delivery location in  /km
-return_mile_cost = 1.5  # Cost to return from delivery location to origin in  /km
-ellipse_a = 0.5 # Ellipse axes lengths a
-ellipse_b = 0.5 # Ellipse axes lengths b
-roundoff_digit = 4 # Round off digit for floating point numbers
-avg_speed = 25 # average speed of the rider needs to be removed
-our_cut = 0.08 # variable  from 8% to 15%
-avg_cost_per_km = 2.5 # needs to be remove
-rider_capacity = 20 # maybe variable rider to rider 
-min_profit = 0 # minimum profit to assign an order to a rider needs to be 0
-# if there are multiple order assigned  so then maximum percentage of bearable loss of total profit
-maximum_percentage_of_bearable_loss_when_mulitple_orders_assign = 0.5 # 50% loss is bearable if mulitple orders are assigned to a rider at once
+- **Order Assignment**: Efficiently assigns orders to available riders based on various constraints and optimization criteria.
+- **Route Optimization**: Calculates the most efficient delivery routes to minimize travel time and distance.
+- **Visualization**: Provides graphical representations of routes and assignments for better understanding and analysis.
+- **Scalability**: Designed to handle a large number of orders and riders, making it suitable for real-world applications.
 
+## 🛠️ Technologies Used
 
+- **Programming Language**: Python
+- **Libraries**:
+  - NumPy
+  - Matplotlib
+  - Copy
+  - Random
 
+## 🧰 Installation
 
-modoule  test.py  contains all the funtion which is used for testing function 
-1.generate_orders_and_riders(num of orders, num of riders , num of locations)
+To set up the project locally, follow these steps:
 
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/devjayswal/ORDER_ASSIGNMENT_AND_PATH_OPTIMIZATION.git
+   ```
 
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd ORDER_ASSIGNMENT_AND_PATH_OPTIMIZATION
+   ```
 
-module  generate_matrix.py  contains all the funtion which is used for generating matrix
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1. generate_matrixs(orders , riders)
+## 💡 Usage
 
-2. print_matrix(matrix) # print the matrix
+1. **Prepare Data**:
+   - Ensure that `rider.json` and `simulation.json` files are populated with appropriate data.
 
-3. get_max_in_the_matrix(matrix) # get the maximum value in the matrix
+2. **Run the Main Script**:
+   ```bash
+   python using_buffer_scheduling.py
+   ```
 
-4. ALL_in_time(rider,order) # check the order is in time or not
+3. **Visualize Results**:
+   - Use `plot.py` to generate visual representations of the optimized routes and assignments.
 
-5. get_distance(coordinate1 , coordinate2) # get the distance between two location
+## 📊 Data Analysis
 
-module utils.py contains all the utility function which is used in the main file
+The project includes tools for analyzing the efficiency of order assignments and delivery routes. By examining the output visualizations and performance metrics, users can gain insights into operational improvements.
 
-1. print_rider_details(rider) # print the rider details
+## 🤝 Contributing
 
-2. append_order(rider, order) # append the order to the rider
+Contributions are welcome! To contribute:
 
-3. calculate_distance(order, rider) # calculate the cost of the order
+1. **Fork the Repository**
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add YourFeature"
+   ```
+4. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Open a Pull Request**
 
-4. calculate_delhivery_time(rider,order) # calculate the delhivery time
+Please ensure your code adheres to the project's coding standards and includes relevant tests.
 
-5. get_min_OTD(rider,order) # get the minimum OTD of the rider 
+## 📄 License
 
-6. total_profit(rider) # calculate the total profit of the rider
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-module  nearby_order.py contains all the function which is used for finding the nearby order
+## 📬 Contact
 
-1.  get_longest_coordinate(coordinate) # get the longest coordinate
-
-2. is_in_the_route(rider,order) # check the order is in the route or not
-
-
-module Optimize_route.py contains all the function which is used for optimizing the route
-
-1. optimize_route(rider) # optimize the route of the single rider
-
-2. extract_coordinates(rider) # extract the coordinates of the rider
+For any inquiries or feedback, please contact [devjayswal404@gmail.com](mailto:devjayswal404@gmail.com).
 
